@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/chat.css">
+    <title>Welcome to the chatroom</title>
+</head>
+
+<body>
+    <div class="chat-body">
+        <img src="./Images/undraw_intense_feeling_ft9s.svg" alt="" height="300px" width="300px">
+        <div>
+            <div class="message-container" id="message-container">
+                <h1>Welcome to the chatroom</h1>
+                <div id="messages" class="messages">
+                </div>
+            </div>
+
+            <form class="form">
+                <input type="text" id="chat-input" placeholder="Type a message" name="name" class="message-area">
+                <button class="btn-1" id="btn"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"
+        integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w=="
+        crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;    
+    overflow-y: hidden;
+    background: #EEE;
+}
+
+.message-container {
+    width:35vw;
+    height: 80vh;
+    border:1px #F50057 solid;
+    background: #fff;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.message-container h1 {
+    text-align: center;
+    padding: 30px;
+    color: #000;
+}
+
+.form {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+}
+
+
+.message-area {
+    height: 45px;
+    width: 480px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 1px #F50057 solid;
+    background: #fff;
+    padding: 15px;
+}
+
+.message-area:focus {
+    outline: none;
+}
+
+.btn-1 {
+    background: #F50057;
+    color: #fff;
+    height: 45px;
+    width: 75px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-1:focus {
+    outline: none;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+}
+
+.message h4 {
+    background: #F50057;
+    display: inline-block;
+    width: 70%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.message h6 {
+    color: #333;
+}
+
+.chat-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chat-body img {
+    margin-right: 30px;
+}
